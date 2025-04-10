@@ -1,0 +1,27 @@
+name: mil
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch
+  - pip
+  - pip:
+    - transformers
+    - h5py
+    - matplotlib
+    - seaborn
+    - numpy
+    - openslide-bin
+    - openslide-python
+    - pandas
+    - plotly
+    - PyYAML
+    - scikit-learn
+    - scipy
+    - tabulate
+    - tqdm
+    - tensorboard
+    - einops
+    - jupyter
+    - notebook

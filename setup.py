@@ -1,0 +1,29 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='mil',
+    version='0.0.1',
+    packages=find_packages(),
+    install_requires=[
+        "torch",
+        "transformers",
+        "h5py",
+        "matplotlib",
+        "seaborn",
+        "numpy",
+        'openslide-bin',
+        "openslide-python",
+        "pandas",
+        "plotly",
+        "PyYAML",
+        "scikit-learn",
+        "scipy",
+        "tabulate",
+        "tqdm",
+        "tensorboard",
+        "einops"
+    ],
+    author="",
+    description="",
+    url=""
+)
